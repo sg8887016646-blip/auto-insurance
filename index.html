@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Auto Insurance</title>
+<title>INSURE A HEALTH - Health Insurance</title>
 
 <style>
 * {
@@ -103,36 +103,17 @@ h2 {
     background: #e8f1fa;
 }
 
-form {
-    max-width: 500px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-input, select {
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-}
-
-button {
-    background: #0879c9;
-    color: white;
-    padding: 15px;
-    border: none;
-    border-radius: 6px;
-    font-size: 17px;
-    cursor: pointer;
-}
-
 footer {
     background: #071d35;
     color: white;
     text-align: center;
     padding: 30px;
+}
+
+.disclaimer {
+    font-size: 13px;
+    color: #666;
+    margin-top: 20px;
 }
 
 @media(max-width: 700px) {
@@ -145,6 +126,11 @@ footer {
         gap: 15px;
     }
 
+    nav a {
+        margin: 5px;
+        display: inline-block;
+    }
+
     .hero h1 {
         font-size: 32px;
     }
@@ -155,130 +141,56 @@ footer {
 <body>
 
 <header>
-    <div class="logo">AUTO INSURANCE</div>
+    <div class="logo">INSURE A HEALTH</div>
 
     <nav>
         <a href="#home">Home</a>
         <a href="#services">Services</a>
         <a href="#about">About</a>
-        <a href="#quote">Get Quote</a>
+        <a href="#offer">Get Insurance</a>
     </nav>
 </header>
 
 <div class="hero" id="home">
 
-    <h1>Protect Your Car With Confidence</h1>
+    <h1>Protect Your Health With Confidence</h1>
 
     <p>
-        Find the right auto insurance coverage
-        for your vehicle and your budget.
+        Explore health insurance options
+        and learn how to protect yourself
+        and your family.
     </p>
 
-    <a href="#quote" class="btn">https://trksy.org/aff_c?offer_id=3695&aff_id=207353</a>
+    <a href="#offer" class="btn">
+        Explore Health Insurance
+    </a>
 
 </div>
 
 <section id="services">
 
-    <h2>Our Insurance Services</h2>
+    <h2>Our Health Insurance Services</h2>
 
     <div class="cards">
 
         <div class="card">
-            <h3>Car Insurance</h3>
+            <h3>Hospital Coverage</h3>
             <p>
-                Explore coverage options to help
-                protect your car.
+                Explore policies that may cover
+                eligible hospitalisation expenses.
             </p>
         </div>
 
         <div class="card">
-            <h3>Collision Coverage</h3>
+            <h3>Family Protection</h3>
             <p>
-                Learn about coverage for damage
-                caused by covered collisions.
+                Learn about health insurance
+                options for family members.
             </p>
         </div>
 
         <div class="card">
-            <h3>Comprehensive Coverage</h3>
+            <h3>Medical Support</h3>
             <p>
-                Explore protection against covered
-                theft, fire and weather damage.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
-<section class="steps" id="about">
-
-    <h2>Why Choose Us?</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <h3>Easy Process</h3>
-            <p>Simple steps to explore insurance options.</p>
-        </div>
-
-        <div class="card">
-            <h3>Clear Information</h3>
-            <p>Understand your coverage choices.</p>
-        </div>
-
-        <div class="card">
-            <h3>Customer Support</h3>
-            <p>Get help with your insurance questions.</p>
-        </div>
-
-    </div>
-
-</section>
-
-<section id="quote">
-
-    <h2>Get Your Insurance Quote</h2>
-
-    <form onsubmit="event.preventDefault(); alert('Demo form only. Connect a form service to receive enquiries.');">
-
-        <input type="text"
-        placeholder="Your Full Name" required>
-
-        <input type="email"
-        placeholder="Your Email Address" required>
-
-        <input type="tel"
-        placeholder="Phone Number">
-
-        <input type="text"
-        placeholder="Car Model">
-
-        <select required>
-            <option value="">Select Insurance Type</option>
-            <option>Car Insurance</option>
-            <option>Collision Coverage</option>
-            <option>Comprehensive Coverage</option>
-        </select>
-
-        <button type="submit">
-            Submit Request
-        </button>
-
-    </form>
-
-</section>
-
-<footer>
-
-    <h3>AUTO INSURANCE</h3>
-
-    <p>Protect Your Vehicle. Drive With Confidence.</p>
-
-    <p>© 2026 Auto Insurance. All Rights Reserved.</p>
-
-</footer>
-
-</body>
-</html>
+                Understand coverage for eligible
+                medical treatments.
