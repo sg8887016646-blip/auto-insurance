@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
 <title>INSURE A HEALTH - Health Insurance</title>
 
 <style>
+
 * {
     margin: 0;
     padding: 0;
@@ -55,4 +57,294 @@ nav a {
     margin-bottom: 20px;
 }
 
-.her
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffb703;
+    color: #071d35;
+    padding: 15px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ffffff;
+}
+
+section {
+    padding: 65px 8%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #071d35;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px #00000012;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #0879c9;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.steps {
+    background: #e8f1fa;
+}
+
+.offer {
+    background: white;
+}
+
+.offer p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.disclaimer {
+    font-size: 13px;
+    color: #666;
+    margin-top: 25px;
+}
+
+footer {
+    background: #071d35;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+@media(max-width: 700px) {
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+        display: inline-block;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+    <div class="logo">
+        INSURE A HEALTH
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#offer">Get Offer</a>
+    </nav>
+
+</header>
+
+
+<!-- HOME -->
+
+<div class="hero" id="home">
+
+    <h1>Protect Your Health With Confidence</h1>
+
+    <p>
+        Explore health coverage information
+        and discover available offers.
+    </p>
+
+    <a href="#offer" class="btn">
+        Explore Health Insurance
+    </a>
+
+</div>
+
+
+<!-- SERVICES -->
+
+<section id="services">
+
+    <h2>Our Health Insurance Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>Hospital Coverage</h3>
+
+            <p>
+                Learn about policies that may cover
+                eligible hospitalisation expenses.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Family Protection</h3>
+
+            <p>
+                Explore health coverage options
+                for family members.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Medical Support</h3>
+
+            <p>
+                Understand different medical
+                coverage options.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="steps" id="about">
+
+    <h2>Why Explore Health Insurance?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>Financial Planning</h3>
+
+            <p>
+                Learn how health coverage can
+                help manage eligible expenses.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Compare Options</h3>
+
+            <p>
+                Review policy benefits,
+                premiums and exclusions.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Make Informed Choices</h3>
+
+            <p>
+                Understand the terms before
+                choosing an insurance policy.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- AFFILIATE OFFER SECTION -->
+
+<section class="offer" id="offer">
+
+    <h2>Explore Available Offers</h2>
+
+    <p>
+        Click the button below to visit
+        our partner offer page.
+    </p>
+
+    <a
+        href="https://giftclick.org/?offer_id=3695&aff_id=207353"
+        class="btn"
+        target="_blank"
+        rel="nofollow sponsored noopener noreferrer">
+
+        APPLY NOW
+
+    </a>
+
+    <p class="disclaimer">
+
+        Affiliate Disclosure: We may earn a commission
+        through this affiliate link.
+
+        Please review the offer carefully.
+        Its availability and suitability as a
+        health insurance product have not been verified.
+
+    </p>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h3>INSURE A HEALTH</h3>
+
+    <p>Your Health. Your Protection.</p>
+
+    <p>
+        © 2026 INSURE A HEALTH.
+        All Rights Reserved.
+    </p>
+
+</footer>
+
+</body>
+</html>
