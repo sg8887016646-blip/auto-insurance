@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loan Quick Guide</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f6fb;
+    color: #222;
+}
+
+header {
+    background: #082747;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.hero {
+    padding: 55px 20px;
+    text-align: center;
+    background: linear-gradient(120deg,#0879c9,#082747);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 30px;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000010;
+}
+
+.card h3 {
+    color: #0879c9;
+}
+
+footer {
+    background: #082747;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>LOAN QUICK GUIDE</h1>
+    <p>Understand Loan Costs Before Borrowing</p>
+</header>
+
+<section class="hero">
+    <h2>Understand Your Loan</h2>
+    <p>
+        Learn about interest rates, processing fees,
+        repayment terms and important loan conditions.
+    </p>
+</section>
+
+<div class="container">
+
+    <div class="card">
+        <h3>1. Check Interest Rates</h3>
+        <p>
+        Always check the annual interest rate before
+        considering any loan.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>2. Processing Fees</h3>
+        <p>
+        Check whether processing fees, taxes or other
+        charges are deducted from the loan amount.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>3. Repayment Terms</h3>
+        <p>
+        Read the repayment schedule, EMI amount,
+        late payment charges and total repayment amount.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>4. Important Safety Information</h3>
+        <p>
+        Verify the lender, read the loan agreement
+        and understand all charges before making
+        any financial decision.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <p>Loan Quick Guide</p>
+    <p>Educational information only. No loan approval or eligibility is guaranteed.</p>
+</footer>
+
+</body>
+</html>
